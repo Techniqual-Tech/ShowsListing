@@ -1,0 +1,55 @@
+.parents{
+    margin: 0;
+    padding:0;
+    background-color: rgb(255, 255, 255);
+}
+.header{
+    background-color: rgb(66, 83, 83);
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header p{
+    font-size:15px;
+    font-weight: bold;
+    color: blue;
+}
+.bodys{
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+    height: auto;
+    min-height: 80vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.inputelements{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    margin: 10px;
+}
+.fonts{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+}
+.book{
+    background-color: rgb(255, 88, 88);
+    padding: 5px;
+    width: 100px;
+    border-radius: 15px;
+    cursor: pointer;
+}
